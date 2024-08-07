@@ -13,7 +13,6 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-# Bot token can be obtained via https://t.me/BotFather
 TOKEN = getenv("BOT_TOKEN")
 
 # All handlers should be attached to the Router (or Dispatcher)
